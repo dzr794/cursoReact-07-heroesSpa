@@ -1,0 +1,1 @@
+export const getHeroImg = ( id ) => `/assets/heroes/${id}.jpg`;
