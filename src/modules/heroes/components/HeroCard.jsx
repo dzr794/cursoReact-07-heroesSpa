@@ -23,7 +23,7 @@ export const HeroCard = ({
     };
     
     return (
-        <div className="col animate__animated animate__fadeIn animate__delay-2s" style={delayCSS}>
+        <div className="col animate__animated animate__fadeIn" style={delayCSS}>
             <div className="card">
                 <div className="row no-gutters">
                     <div className="col-4">

@@ -1,4 +1,4 @@
 export * from './getHeroById';
-export * from './getHeroImg';
+export * from './getHeroesByName';
 export * from './getHeroesByPublisher';
-
+export * from './getHeroImg';

@@ -14,17 +14,18 @@ export const Hero = () => {
   }
 
   const onNavegateBack = () => {
-    switch (hero.publisher) {
-      case 'Marvel Comics':
-        navegate('/marvel');
-        break;
-      case 'DC Comics':
-        navegate('/dc');
-        break;
-      default:
-        navegate(-1);
-        break;
-    }
+    navegate(-1);
+    // switch (hero.publisher) {
+    //   case 'Marvel Comics':
+    //     navegate('/marvel');
+    //     break;
+    //   case 'DC Comics':
+    //     navegate('/dc');
+    //     break;
+    //   default:
+    //     navegate(-1);
+    //     break;
+    // }
   }
 
   if (!hero) return <Navigate to="/marvel"/>
