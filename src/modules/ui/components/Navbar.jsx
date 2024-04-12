@@ -13,6 +13,7 @@ export const Navbar = () => {
     }
 
     return (
+        {import.meta.env.VITE_SOME_KEY}
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2">
             
             <Link 
